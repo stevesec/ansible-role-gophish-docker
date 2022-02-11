@@ -1,9 +1,9 @@
 Ansible Gophish (Docker)
 =========
 [![CI](https://github.com/warhorse/ansible-role-gophish-docker/workflows/CI/badge.svg?event=push)](https://github.com/warhorse/ansible-role-gophish-docker/actions?query=workflow%3ACI)
-[![warhorse.gophish_docker](https://img.shields.io/ansible/role/57577)](https://galaxy.ansible.com/warhorse/gophish_docker)
-[![warhorse.gophish_docker](https://img.shields.io/ansible/quality/57577)](https://galaxy.ansible.com/warhorse/gophish_docker)
-[![warhorse.gophish_docker](https://img.shields.io/ansible/role/d/57577)](https://galaxy.ansible.com/warhorse/gophish_docker)
+[![warhorse.gophish_docker](https://img.shields.io/ansible/role/58017)](https://galaxy.ansible.com/warhorse/gophish_docker)
+[![warhorse.gophish_docker](https://img.shields.io/ansible/quality/58017)](https://galaxy.ansible.com/warhorse/gophish_docker)
+[![warhorse.gophish_docker](https://img.shields.io/ansible/role/d/58017)](https://galaxy.ansible.com/warhorse/gophish_docker)
 ![License](https://img.shields.io/github/license/warhorse/ansible-role-gophish-docker)
 ![Commit](https://img.shields.io/github/last-commit/warhorse/ansible-role-gophish-docker)
 
