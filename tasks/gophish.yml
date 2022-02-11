@@ -3,6 +3,7 @@
   file:
     path: '{{ item }}'
     state: directory
+    mode: '777'
   with_items:
   - '{{ gophish_dir }}'
   - '{{ gophish_dir }}/data'
