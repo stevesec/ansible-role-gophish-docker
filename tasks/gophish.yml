@@ -16,6 +16,7 @@
     hostname: "{{ gophish_hostname }}"
     restart_policy: unless-stopped
     ports: "{{ gophish_ports }}"
+    labels: '{{ gophish_docker_labels }}'
     volumes:
       - "{{ gophish_dir }}/data:/data"
       - "/etc/localtime:/etc/localtime:ro"
@@ -23,6 +24,7 @@
       ADMIN_USE_TLS: "false"
       PHISH_USE_TLS: "false"
       DB_FILE_PATH: "/data/gophish.db"
+      ADMIN_TRUSTED_ORIGINS: "{{ gophish_trusted_origins }}"
     networks:
       - name: "{{ gophish_docker_network }}"
     purge_networks: true

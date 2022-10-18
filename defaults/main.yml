@@ -2,6 +2,7 @@
 gophish_hostname: "gophish"
 gophish_container_name: "gophish"
 gophish_docker_version: "latest"
+gophish_trusted_origins: ""
 
 gophish_docker_labels: {}
 gophish_docker_image: "gophish/gophish:{{ gophish_docker_version }}"
