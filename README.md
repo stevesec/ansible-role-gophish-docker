@@ -1,18 +1,18 @@
 Ansible Gophish (Docker)
 =========
-[![CI](https://github.com/warhorse/ansible-role-gophish-docker/workflows/CI/badge.svg?event=push)](https://github.com/warhorse/ansible-role-gophish-docker/actions?query=workflow%3ACI)
-[![warhorse.gophish_docker](https://img.shields.io/ansible/role/58017)](https://galaxy.ansible.com/warhorse/gophish_docker)
-[![warhorse.gophish_docker](https://img.shields.io/ansible/quality/58017)](https://galaxy.ansible.com/warhorse/gophish_docker)
-[![warhorse.gophish_docker](https://img.shields.io/ansible/role/d/58017)](https://galaxy.ansible.com/warhorse/gophish_docker)
-![License](https://img.shields.io/github/license/warhorse/ansible-role-gophish-docker)
-![Commit](https://img.shields.io/github/last-commit/warhorse/ansible-role-gophish-docker)
+[![CI](https://github.com/stevesec/ansible-role-gophish-docker/workflows/CI/badge.svg?event=push)](https://github.com/stevesec/ansible-role-gophish-docker/actions?query=workflow%3ACI)
+[![stevesec.gophish_docker](https://img.shields.io/ansible/role/58017)](https://galaxy.ansible.com/stevesec/gophish_docker)
+[![stevesec.gophish_docker](https://img.shields.io/ansible/quality/58017)](https://galaxy.ansible.com/stevesec/gophish_docker)
+[![stevesec.gophish_docker](https://img.shields.io/ansible/role/d/58017)](https://galaxy.ansible.com/stevesec/gophish_docker)
+![License](https://img.shields.io/github/license/stevesec/ansible-role-gophish-docker)
+![Commit](https://img.shields.io/github/last-commit/stevesec/ansible-role-gophish-docker)
 
 ![Gophish Logo](./images/gophish_logo.png "Gophish Logo")
 
 
 Install Gophish (Docker)
 
-This role is part of the Warhorse Automation Framework. This role can be used with Warhorse or as a standalone role.
+This role is part of the SteveSec Automation Framework. This role can be used with SteveSec or as a standalone role.
 
 Docker Image
 -------------
@@ -49,7 +49,7 @@ Install
 ------------
 
 ```shell
-ansible-galaxy install warhorse.gophish_docker
+ansible-galaxy install stevesec.gophish_docker
 ```
 
 Example Playbook
@@ -58,7 +58,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-      - { role: warhorse.gophish_docker }
+      - { role: stevesec.gophish_docker }
 ```
 
 Example Vars
