@@ -19,4 +19,4 @@
       failed_when: systemctl_status.rc > 1
       
   roles:
-    - role: warhorse.gophish_docker
+    - role: stevesec.gophish_docker
