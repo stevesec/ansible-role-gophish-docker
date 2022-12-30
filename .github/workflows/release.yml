@@ -13,7 +13,7 @@ name: Release
 
 defaults:
   run:
-    working-directory: 'warhorse.gophish_docker'
+    working-directory: 'stevesec.gophish_docker'
 
 jobs:
 
@@ -24,7 +24,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'warhorse.gophish_docker'
+          path: 'stevesec.gophish_docker'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
