@@ -1,10 +1,10 @@
 galaxy_info:
   role_name: gophish_docker
-  author: warhorse
+  author: stevesec
   description: Install Gophish in Docker
-  company: Warhorse
+  company: Stevesec
 
-  issue_tracker_url: https://github.com/warhorse/ansible-role-gophish-docker/issues
+  issue_tracker_url: https://github.com/stevesec/ansible-role-gophish-docker/issues
 
   license: BSD-3-Clause
 
